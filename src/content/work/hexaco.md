@@ -2,7 +2,7 @@
 title: Hexaco
 subtitle: Backend Developer · Dec 2018 - Aug 2021 · 2 yrs 9 mos
 publishDate: 2023-06-26 00:00:00
-img: /assets/work-experiences/hexaco.png
+img: /assets/work-experiences/hexaco.jpeg
 img_alt: Hexaco logo 
 description: |
   As a backend developer in Hexaco, I built, extended and maintened a SaaS related to health insurance plans.

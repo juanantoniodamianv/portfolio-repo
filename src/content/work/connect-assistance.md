@@ -2,7 +2,7 @@
 title: Connect Assistance
 subtitle: Full Stack Developer · Nov 2020 - Jun 2023 · 2 yrs 8 mos
 publishDate: 2023-06-28 00:00:00
-img: /assets/work-experiences/connect-assistance.png
+img: /assets/work-experiences/connect-assistance.jpeg
 img_alt: An screenshot of a Connect Assistance website    
 description: |
   In my role as a Backend and Frontend Developer at Connect Assistance, I was responsible for designing and implementing high-quality web systems. I utilized customer-centric innovation to transform roadside, home, and travel assistance into a value-added experience.

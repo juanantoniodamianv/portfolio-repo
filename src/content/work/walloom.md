@@ -2,7 +2,7 @@
 title: Walloom
 subtitle: Backend Developer · May 2018 - Dec 2018 · 8 mos
 publishDate: 2023-06-25 00:00:00
-img: /assets/work-experiences/walloom.png
+img: /assets/work-experiences/walloom.jpeg
 img_alt: A screenshot of Ballastlane website
 description: |
   Backend Development for API REST Services, with direct clients of Walloom
