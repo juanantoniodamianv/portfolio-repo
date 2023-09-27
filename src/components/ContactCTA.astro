@@ -1,14 +1,22 @@
 ---
 import CallToAction from './CallToAction.astro';
+import CallToDownload from './CallToDownload.astro';
 import Icon from './Icon.astro';
 ---
 
 <aside>
 	<h2>Interested in working together?</h2>
-	<CallToAction href="mailto:juanantoniodamianv@gmail.com">
-		Send Me a Message
-		<Icon icon="paper-plane-tilt" size="1.2em" />
-	</CallToAction>
+	<section>
+		<CallToAction href="mailto:juanantoniodamianv@gmail.com">
+			Send Me a Message
+			<Icon icon="paper-plane-tilt" size="1.2em" />
+		</CallToAction>
+		<br>
+		<CallToDownload href="https://drive.google.com/file/d/1mF74npdpdPbUY2gz8jBgRtDdcFHJ4EAa/view?usp=sharing">
+			Download My Resume
+			<Icon icon="download" size="1.2em" />
+		</CallToDownload>
+	</section>
 </aside>
 
 <style>
