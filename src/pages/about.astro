@@ -1,146 +1,173 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
 <BaseLayout title="About | Antonio Vargas" description="About Antonio Vargas">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About Me"
-				tagline="With 8+ years of software development experience, I specialize in designing and implementing web systems, prioritizing customer-centric solutions."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/about-me.jpeg"
-					alt="Antonio Vargas at work"
-				/>
-			</Hero>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="About Me"
+        tagline="With 9+ years of software development experience, I specialize in designing and implementing web systems, prioritizing customer-centric solutions."
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/about-me.jpeg"
+          alt="Antonio Vargas at work"
+        />
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p class="background background-bottom">
-						With over eight years of experience as a Backend and Frontend Developer, I am dedicated to designing and implementing web systems. 
-					</p>
-					
-					<p class="background background-top background-bottom">
-						My focus is on delivering high-quality solutions that prioritize customer-centric experiences.
-					</p>
-					
-					<p class="background background-top background-bottom">
-						In my previous role, I played a key role in a transformative initiative within the roadside, home, and travel assistance industry. Working as part of a collaborative team, I actively contributed to the decomposition of business requirements and the successful implementation of solutions. See more about my last job <a href="/work/connect-assistance">here</a>!
-					</p>	
-					
-					<p class="background background-top background-bottom">
-						Some key highlights of my expertise include:
-						<ul>
-							<li>Extensive proficiency in TypeScript development with React, Node.js, and Angular</li>
-							<li>Profesional Experience with Ruby and PHP</li>
-							<li>Deep knowledge of both SQL (PostgreSQL, MySQL, MSSQL) and NoSQL (MongoDB) databases</li>
-							<li>Strong commitment to service reliability, observability (New Relic, Mezmo, DataDog, Sentry) and comprehensive unit testing</li>
-							<li>Amazon Web Services (S3, SQS, Lambda, App Runner, Amplify) </li>
-							<li>Effective communication and problem-solving abilities</li>
-						</ul>
-					</p>
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p class="background background-bottom">
+            With over eight years of experience as a Backend and Frontend
+            Developer, I am dedicated to designing and implementing web systems.
+          </p>
 
-					<p class="background background-top">
-						I am passionate about collaborating with talented individuals who inspire me to achieve my goals and continuously stay at the forefront of innovation.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>College: “IESA”, Networking and Computer Security</p>
-					<p>University: “Gastón Dachary”, Computer Engineering (incomplete)</p>
-					<p>Languages: Spanish (native). Portuguese (newbie A1). English (upper intermediate B2)</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Technical Skills</h2>
-				<div class="content">
-					<h2 class="section-title">Languages / Frameworks</h2>
-					<p>JavaScript, Node.JS, TypeScript, React, Angular, Ruby (Ruby On Rails), PHP (Laravel)</p>
-					<h2 class="section-title">Databases</h2>
-					<p>MongoDB, PostgreSQL, MySQL, Redis</p>
-					<h2 class="section-title">Observability</h2>
-					<p>New Relic, Sentry, Datadog, Mezmo</p>
-					<h2 class="section-title">Delivery</h2>
-					<p>Asana, Jira, Git, GitHub, GitLab, AWS, Heroku</p>
-				</div>
-			</section>
-		</main>
+          <p class="background background-top background-bottom">
+            My focus is on delivering high-quality solutions that prioritize
+            customer-centric experiences.
+          </p>
 
-		<ContactCTA />
-	</div>
+          <p class="background background-top background-bottom">
+            In my previous role, I played a key role in a transformative
+            initiative within the roadside, home, and travel assistance
+            industry. Working as part of a collaborative team, I actively
+            contributed to the decomposition of business requirements and the
+            successful implementation of solutions. See more about my last job <a
+              href="/work/connect-assistance">here</a
+            >!
+          </p>
+
+          <p class="background background-top background-bottom">
+            Some key highlights of my expertise include:
+            <ul>
+              <li>
+                Extensive proficiency in TypeScript development with React,
+                Node.js, and Angular
+              </li>
+              <li>Profesional Experience with Ruby and PHP</li>
+              <li>
+                Deep knowledge of both SQL (PostgreSQL, MySQL, MSSQL) and NoSQL
+                (MongoDB) databases
+              </li>
+              <li>
+                Strong commitment to service reliability, observability (New
+                Relic, Mezmo, DataDog, Sentry) and comprehensive unit testing
+              </li>
+              <li>
+                Amazon Web Services (S3, SQS, Lambda, App Runner, Amplify)
+              </li>
+              <li>Effective communication and problem-solving abilities</li>
+            </ul>
+          </p>
+
+          <p class="background background-top">
+            I am passionate about collaborating with talented individuals who
+            inspire me to achieve my goals and continuously stay at the
+            forefront of innovation.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <p>College: “IESA”, Networking and Computer Security</p>
+          <p>University: “Gastón Dachary”, Computer Engineering (incomplete)</p>
+          <p>
+            Languages: Spanish (native). Portuguese (newbie A1). English (upper
+            intermediate B2)
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="content">
+          <h2 class="section-title">Languages / Frameworks</h2>
+          <p>
+            JavaScript, Node.JS, TypeScript, React, Angular, Ruby (Ruby On
+            Rails), PHP (Laravel)
+          </p>
+          <h2 class="section-title">Databases</h2>
+          <p>MongoDB, PostgreSQL, MySQL, Redis</p>
+          <h2 class="section-title">Observability</h2>
+          <p>New Relic, Sentry, Datadog, Mezmo</p>
+          <h2 class="section-title">Delivery</h2>
+          <p>Asana, Jira, Git, GitHub, GitLab, AWS, Heroku</p>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.background {
-		&.background-top {
-			margin-top: 0.5rem; 
-		}
-		&.background-bottom {
-			margin-bottom: 0.5rem;
-		}
-	}
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .background {
+    &.background-top {
+      margin-top: 0.5rem;
+    }
+    &.background-bottom {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
