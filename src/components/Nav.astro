@@ -159,7 +159,7 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
   }
 
   .menu-button[aria-expanded="true"] {
-    /* color: var(--gray-0); */
+    color: var(--gray-0);
     /* background: linear-gradient(180deg, var(--gray-600), transparent),
       radial-gradient(var(--gray-900), var(--gray-800) 150%); */
   }
@@ -172,7 +172,6 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
     position: absolute;
     inset: -1px;
     content: "";
-    /* background: var(--gradient-stroke); */
     border-radius: 999rem;
     z-index: -1;
   }
@@ -181,6 +180,7 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
     position: absolute;
     left: 0;
     right: 0;
+    background-color: var(--accent-light);
   }
 
   .nav-items {
@@ -192,7 +192,6 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
     line-height: 1.2;
     list-style: none;
     padding: 2rem;
-    /* background-color: var(--gray-999); */
     border-bottom: 1px solid var(--gray-800);
   }
 
