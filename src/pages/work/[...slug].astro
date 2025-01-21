@@ -40,7 +40,7 @@ const { Content } = await entry.render();
           >
             <div class="details">
               <div class="tags">
-                {entry.data.tags.map((t) => <Pill>{t}</Pill>)}
+                {entry.data.tags.map((t: string) => <Pill>{t}</Pill>)}
               </div>
               <p class="description">{entry.data.description}</p>
             </div>
