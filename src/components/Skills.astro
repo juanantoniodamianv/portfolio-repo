@@ -1,64 +1,88 @@
 ---
-import Icon from './Icon.astro';
+import Icon from "./Icon.astro";
 ---
 
 <section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Backend</h2>
-		<p>Extensive expertise in backend development, cloud services, and databases.</p>
-		<p>NodeJS, TypeScript, Ruby, AWS, Serverless, SQL and No-SQL, among other tools.</p>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="file-html" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Frontend</h2>
-		<p>Experienced in frontend development, capable of building robust and scalable applications with a focus on user-centric design.</p>
-		<p>React, Angular, Electron, TypeScript, HTML, CSS among other tools.</p>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Soft Skills</h2>
-		<p>Exceptional communication, collaborative problem-solving, adaptability, and meticulous attention to detail, delivering impactful solutions.</p>
-	</div>
+  <div class="stack gap-2 lg:gap-4">
+    <Icon
+      icon="terminal-window"
+      color="var(--accent-regular)"
+      size="2.5rem"
+      gradient
+    />
+    <h2>Backend Development</h2>
+    <p>
+      Building scalable and efficient applications with Node.js, TypeScript,
+      Ruby, AWS, SQL and NoSQL databases, and integration services like REST
+      APIs, OAuth, and Webhooks.
+    </p>
+  </div>
+  <div class="stack gap-2 lg:gap-4">
+    <Icon
+      icon="file-html"
+      color="var(--accent-regular)"
+      size="2.5rem"
+      gradient
+    />
+    <h2>Frontend Development</h2>
+    <p>
+      Building robust and scalable applications with a focus on user-centric
+      design using React, Angular, Electron, Tailwind, HTMX, and CSS.
+    </p>
+  </div>
+  <div class="stack gap-2 lg:gap-4">
+    <Icon
+      icon="strategy"
+      color="var(--accent-regular)"
+      size="2.5rem"
+      gradient
+    />
+    <h2>DevOps and Monitoring</h2>
+    <p>
+      Expert in version control, CI/CD, unit testing, monolithic and
+      microservices architectures, serverless environments, and observability
+      with tools like New Relic and Datadog.
+    </p>
+  </div>
 </section>
 
 <style>
-	.box {
-		border: 1px solid var(--gray-800);
-		border-radius: 0.75rem;
-		padding: 1.5rem;
-		background-color: var(--gray-999_40);
-		box-shadow: var(--shadow-sm);
-	}
+  .box {
+    border: 1px solid var(--gray-800);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    background-color: var(--gray-999_40);
+    box-shadow: var(--shadow-sm);
+  }
 
-	.skills {
-		display: flex;
-		flex-direction: column;
-		gap: 3rem;
-	}
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 
-	.skills h2 {
-		font-size: var(--text-lg);
-	}
+  .skills h2 {
+    font-size: var(--text-lg);
+  }
 
-	.skills p {
-		color: var(--gray-400);
-	}
+  .skills p {
+    color: var(--gray-400);
+  }
 
-	@media (min-width: 50em) {
-		.box {
-			border-radius: 1.5rem;
-			padding: 2.5rem;
-		}
+  @media (min-width: 50em) {
+    .box {
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+    }
 
-		.skills {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 5rem;
-		}
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5rem;
+    }
 
-		.skills h2 {
-			font-size: var(--text-2xl);
-		}
-	}
+    .skills h2 {
+      font-size: var(--text-2xl);
+    }
+  }
 </style>
