@@ -8,17 +8,24 @@ import Hero from "../components/Hero.astro";
 <BaseLayout title="About | Antonio Vargas" description="About Antonio Vargas">
   <div class="stack gap-20">
     <main class="wrapper about">
-      <Hero
-        title="About Me"
-        tagline="With 9+ years of software development experience, I specialize in designing and implementing web systems, prioritizing customer-centric solutions."
-      >
-        <img
-          width="1553"
-          height="873"
-          src="/assets/about-me.jpeg"
-          alt="Antonio Vargas at work"
-        />
-      </Hero>
+      <section>
+        <h2 class="section-title">About Me</h2>
+        <div class="content">
+          <p>
+            With 9+ years of software development experience, I specialize in
+            designing and implementing web systems, prioritizing
+            customer-centric solutions.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="content">
+          <div class="image-section">
+            <img src="/assets/about-me.jpeg" alt="Antonio Vargas at work" />
+          </div>
+        </div>
+      </section>
 
       <section>
         <h2 class="section-title">Background</h2>
@@ -107,6 +114,26 @@ import Hero from "../components/Hero.astro";
 </BaseLayout>
 
 <style>
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .image-section img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    .image-section img {
+      max-width: 90%;
+    }
+  }
+
   .background {
     &.background-top {
       margin-top: 0.5rem;
