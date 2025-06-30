@@ -36,15 +36,26 @@ const { title, description } = Astro.props;
   <body>
     <div class="stack backgrounds">
       <Nav />
-      <slot />
+      <div class="main-content">
+        <slot />
+      </div>
       <Footer />
     </div>
 
     <script>
-      // Add “loaded” class once the document has completely loaded.
+      // Add "loaded" class once the document has completely loaded.
       addEventListener("load", () =>
         document.documentElement.classList.add("loaded")
       );
     </script>
   </body>
 </html>
+
+<style>
+  @media (max-width: 49.99em) {
+    .stack:has(#menu-content:not([hidden])) .main-content {
+      filter: blur(4px);
+      transition: filter 0.3s ease;
+    }
+  }
+</style>
