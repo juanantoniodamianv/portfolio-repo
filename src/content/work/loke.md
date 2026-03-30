@@ -3,7 +3,7 @@ title: LOKE
 subtitle: Full Stack Developer · Oct 2023 - Aug 2024 · 11 mos
 publishDate: 2024-10-08 00:00:00
 img: /assets/work-experiences/loke.png
-img_alt: An screenshot of a LOKE logo
+img_alt: A screenshot of the LOKE logo
 description: |
   Responsible for designing and implementing tools to enhance ordering and store management processes. Integrated authentication systems, created data parsers to integrate external systems, and built features for handling orders and managing store operations.
 tags:

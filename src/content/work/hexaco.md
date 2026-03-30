@@ -5,7 +5,7 @@ publishDate: 2023-06-26 00:00:00
 img: /assets/work-experiences/hexaco.jpeg
 img_alt: Hexaco logo 
 description: |
-  As a backend developer in Hexaco, I built, extended and maintened a SaaS related to health insurance plans.
+  As a backend developer in Hexaco, I built, extended and maintained a SaaS related to health insurance plans.
 tags:
   - Node.JS
   - Loopback
@@ -52,7 +52,7 @@ Responsibilities:
 
 ##### Some of the tools I frequently utilized in my day-to-day work
 - Node.JS, Express, Loopback 3, Sails.JS, Swagger
-- MySQL, Views, Store Procedures, MongoDB
+- MySQL, Views, Stored Procedures, MongoDB
 - Mailchimp, CSV Parser, PDF Generator
 - Passport (middleware for authentication) 
 - Firebase Cloud Messaging
