@@ -3,7 +3,7 @@ title: Connect Assistance
 subtitle: Full Stack Developer · Nov 2020 - Jun 2023 · 2 yrs 8 mos
 publishDate: 2023-06-28 00:00:00
 img: /assets/work-experiences/connect-assistance.jpeg
-img_alt: An screenshot of a Connect Assistance website    
+img_alt: A screenshot of the Connect Assistance website
 description: |
   In my role as a Backend and Frontend Developer at Connect Assistance, I was responsible for designing and implementing high-quality web systems. I utilized customer-centric innovation to transform roadside, home, and travel assistance into a value-added experience.
 tags:
@@ -28,7 +28,7 @@ November 2020 to June 2023 · 2 yrs 8 mos
 ##### One of the last projects that I've been involved in Connect Assistance was EOS
 EOS a b2b platform that presents assistance services to providers and insurers. One of the main features I developed on this platform was the ability to generate payment invoices for suppliers. In other words, providers with access can generate invoices for services that are pending payment. This streamlines the company's accounting process, as previously suppliers had to go to the company's office to submit their invoices.
 
-The company have presence in five countries of America, each one with it's own specific business model. This means that I have developed certain characteristics that adapt to each business model, such as:
+The company has a presence in five countries in the Americas, each with its own specific business model. This means that I have developed certain characteristics that adapt to each business model, such as:
 - A job for a worker to automatically generate invoices
 - Calculation of taxes (each country has its own specific percentage)
 

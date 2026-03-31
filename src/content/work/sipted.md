@@ -3,7 +3,7 @@ title: Sipted
 subtitle: Full Stack Developer · Feb 2015 - Apr 2018 · 3 yrs 2 mos
 publishDate: 2023-06-24 00:00:00
 img: /assets/work-experiences/sipted.jpeg
-img_alt: An screenshot of a Sipted website    
+img_alt: A screenshot of the Sipted website
 description: |
   In my role as a Full Stack Developer at Sipted, I was responsible for designing and implementing web systems for bussiness purposes. 
 tags:

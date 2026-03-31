@@ -1,6 +1,6 @@
 ---
 title: ConSalud
-subtitle: Full Stack Developer · Aug 2019 - Nov 2020 · 1 yrs 4 mos
+subtitle: Full Stack Developer · Aug 2019 - Nov 2020 · 1 yr 4 mos
 publishDate: 2023-06-27 00:00:00
 img: /assets/work-experiences/consalud.jpeg
 img_alt: ConSalud logo 
@@ -9,19 +9,19 @@ description: |
 tags:
   - PHP (Laravel)
   - JavaScript
-  - SQL (MMSQL, Store Procedures)
+  - SQL (MSSQL, Stored Procedures)
 ---
 
 > [ConSalud](https://consalud.com.ar/) founded in 1997 to address the challenges of accessing secure and immediate healthcare services 
 
-Based in Posadas, Misiones Argentina, It has a strong partnership with [Sanatorio Boratti](https://www.sanatorioboratti.com.ar/), the leading and preferred healthcare center in the northeastern region. 
+Based in Posadas, Misiones, Argentina, it has a strong partnership with [Sanatorio Boratti](https://www.sanatorioboratti.com.ar/), the leading and preferred healthcare center in the northeastern region. 
 
 The company's strategy revolves around close collaboration with its commercial partners, with the directors being owners of prominent healthcare facilities like Sanatorio Boratti and CEMEBA.
 
 ##### My role at ConSalud
 Full Stack Developer
 
-August 2019 to November 2020 · 1 yrs 4 mos
+August 2019 to November 2020 · 1 yr 4 mos
 
 ##### My work at ConSalud
 Built a new product designed to improve communication between doctors, patients, and pharmacy technicians. 
